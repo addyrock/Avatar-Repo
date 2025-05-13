@@ -213,3 +213,5 @@ def test_profile_pic(setup):
     time.sleep(8)
     driver.find_element(By.XPATH, "//button[normalize-space()='OK']").click()
     time.sleep(10)
+    driver.find_element(By.XPATH, "//button[normalize-space()='OK']").click()
+    time.sleep(10)
